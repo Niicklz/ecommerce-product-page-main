@@ -190,7 +190,9 @@ background-color: hsl(0, 0%, 0%, 0.7);
 
 .slider {
     overflow: hidden;
-    position: relative;
+    
+    scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
     
     
     
@@ -516,8 +518,7 @@ user-select: none;
     .slider {
         max-width: none;
         
-        scroll-snap-type: x mandatory;
-        scroll-behavior: smooth;
+        
     }
    
     
